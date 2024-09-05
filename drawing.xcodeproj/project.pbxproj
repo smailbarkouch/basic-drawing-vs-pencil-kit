@@ -11,6 +11,7 @@
 		47803C882C894A0A007ED57E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47803C872C894A0A007ED57E /* ContentView.swift */; };
 		47803C8A2C894A0C007ED57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47803C892C894A0C007ED57E /* Assets.xcassets */; };
 		47803C8D2C894A0C007ED57E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47803C8C2C894A0C007ED57E /* Preview Assets.xcassets */; };
+		47803C952C894B12007ED57E /* PencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47803C942C894B12007ED57E /* PencilKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		47803C872C894A0A007ED57E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47803C892C894A0C007ED57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47803C8C2C894A0C007ED57E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47803C942C894B12007ED57E /* PencilKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PencilKit.framework; path = System/Library/Frameworks/PencilKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47803C952C894B12007ED57E /* PencilKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +40,7 @@
 			children = (
 				47803C842C894A0A007ED57E /* drawing */,
 				47803C832C894A0A007ED57E /* Products */,
+				47803C932C894B12007ED57E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				47803C8C2C894A0C007ED57E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47803C932C894B12007ED57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47803C942C894B12007ED57E /* PencilKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
